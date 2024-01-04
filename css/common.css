@@ -1,0 +1,37 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap'); */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+:root{
+    /* color */
+    --color-bg:#EDEEF2; 
+    --color-very-light-grey:#A2A2A2; 
+    --color-light-grey:#D6DBE5;
+    --color-greyM:#FBFBFD;
+    --color-grey:#494947;
+    --color-hover:#F0F0F0;
+    --color-black:#1D1D1F;
+    --color-mainB:#2F61D2;   
+    /* font-size */
+    --font-1:10px; 
+    --font-2:13px; 
+    --font-3:16px;
+    --font-4:20px;  
+    --font-5:26px;  
+    --font-6:33px;  
+    --font-7:42px;  
+    /* shadow */
+    --box-shadow:0 3px 6px rgba(0, 0, 0, .16);
+    --box-shadow-two:0 3px 6px rgba(0, 0, 0, .3);
+}
+@keyframes showUp{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+body{
+    color: var(--color-black);
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+}
